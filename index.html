@@ -15,7 +15,7 @@
         <!--Should I be using CSS instead for images?-->
         <img class="logo logo_place_header" src="images/logo.png" alt="Practicum Logo">
         <h1 class="header__title">Learning how to learn</h1>
-        <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. <a class="header__link" href="#techniques">Learn More →</a></h2>
+        <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. <a class="header__link" href="">Learn More →</a></h2>
         <img class="header__main-illustration" src="images/on_the_edge.png" alt="Woman standing on the edge of a hill">
         <!--chose to use a div element for styling purposes-->
         <div class="header__square-pic"></div>
@@ -87,10 +87,10 @@
           <p class="feynman__subtitle">Learn without forgetting.</p>
           <a class="feynman__link" href="#">More &#x2192;</a>
           <img src="images/feynman.png" alt="Close-up shot of Richard Feynman wearing a suit and smiling " 
-          width="867" height="637"class="feynman__background-image"></img>
+         class="feynman__background-image">
         </section>
 
-        <section id="techniques" class="kaufman">
+        <section class="kaufman">
           <h1 class="kaufman-title kaufman-title_theme_dark">Ten principles of rapid skill acquisition</h1>
           <h2 class="kaufman-subtitle kaufman-subtitle_theme_dark ">by Josh Kaufman</h2>
           <ul class="table table_theme_dark">
@@ -140,20 +140,23 @@
       </main>
       <footer class="footer">
         <nav class="footer__columns"> 
-          <div class="footer__column_content_copyright">
+          <div class="footer__column footer__column_content_copyright">
               <img src="images/logo_white.png" alt="Practicum logo" class="logo logo_place_footer">
               <p class="footer__author">&copy; 2020. Olivia Cameron</p>
           </div>
-          <div class="footer__column_content_info">
-            <h4 class="footer_column-heading">About Practicum by Yandex</h4>
-            <a class="footer__column_links">Home page</a>
-            <a class="footer__column_links">Concept</a>
-            <a class="footer__column_links">Mentors</a>
+          <div class="footer__column footer__column_content_info">
+            <h4 class="footer__column-heading">About Practicum by Yandex</h4>
+            <div class="footer__column-links">
+              <a class="footer__column_link" href="#">Home page</a>
+              <a class="footer__column_link" href="#">Concept</a>
+              <a class="footer__column_link" href="#">Mentors</a>
+            </div>
           </div>
-          <div class="footer__column_content_social">
-            <h4 class="footer_column-heading">Social Media</h4>
-            <a href="#"><img class="footer__social-icon" src="images/Facebook_white.svg" alt="Facebook icon">Facebook</a> 
-            <a href="#"><img class="footer__social-icon" src="images/Instagram_white.svg" alt="Instagram icon">Instagram</a>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Social Media</h4>
+            <div class="footer__column-links">
+              <a class="footer__column_link" href="#"><img class="footer__social-icon" src="images/Facebook_white.svg" alt="Facebook icon">Facebook</a> 
+              <a class="footer__column_link" href="#"><img class="footer__social-icon" src="images/Instagram_white.svg" alt="Instagram icon">Instagram</a></div>
           </div>
         </nav>
       </footer>
