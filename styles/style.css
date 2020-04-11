@@ -47,9 +47,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
-
 }
+
 .header__link {
   text-decoration: none;
 }
@@ -212,7 +211,7 @@
   text-align: center; /* DAHHH! align the text inside of the flex item*/
   line-height: 51px;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -220,6 +219,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  margin-top: 45px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
