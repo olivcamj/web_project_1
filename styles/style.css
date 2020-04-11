@@ -307,9 +307,8 @@
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  color: #fff;
+  color: #f2f2f2;
   display: flex;
-  align-content: center;
 }
 
 .footer__columns {
@@ -349,7 +348,6 @@
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
-  justify-self: flex-start;
 }
 
 .footer__column_content_social {
@@ -358,8 +356,10 @@
 }
 
 .footer__column-heading {
+  height: 35px;
   margin-top: 0;
   margin-bottom: 20px;
+  color: #fff;
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
@@ -375,7 +375,7 @@
   font-size: 18px;
   font-weight: normal;
   padding-left: 0;
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
 }
 
