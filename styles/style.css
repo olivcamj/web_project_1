@@ -370,8 +370,7 @@
   flex-direction: column;
 }
 
-.footer__column_link {
-  list-style-type: none;
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
