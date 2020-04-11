@@ -289,7 +289,8 @@
   top: 0;
   bottom: 0;
   right: -210px;
-  transform: skewY(-0.7deg) translate(-90px, 55px);
+  background-image: url('/images/triangle.svg');
+  /*transform: skewY(-0.7deg) translate(-90px, 55px);*/
   z-index: 0;
 }
 
