@@ -170,13 +170,14 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
+  margin-top: 20px;
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -244,30 +245,32 @@
   overflow: hidden;
   flex-direction: column;
   background-color: #1f1f1f;
+  padding-bottom: 1px; /* correct a white line that runs between sections*/
 }
 
 .section-title_theme_dark {
   margin-top: 90px;
   color: #fff;
-  margin-bottom: 0;
   z-index: 1
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
-  margin-bottom: 0;
   z-index: 1;
 }
 
 .table_theme_dark {
-  margin-bottom: 90px;
   margin-top: 0;
+  margin-bottom: 90px;
   padding-left: 0;
 }
 
+/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  margin-right: 0;
+  color: #fff;
   z-index: 1;
 }
 
@@ -295,15 +298,7 @@
   z-index: 0;
 }
 
-  /* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: #fff;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-  /* Site footer, footer block */
+ /* Site footer, footer block */
 
 .footer {
   min-height: 350px;
