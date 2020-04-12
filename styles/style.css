@@ -245,7 +245,7 @@
   overflow: hidden;
   flex-direction: column;
   background-color: #1f1f1f;
-  padding-bottom: 1px; /* correct a white line that runs between sections*/
+  padding-bottom: 2px; /* correct a white line that runs between sections*/
 }
 
 .section-title_theme_dark {
