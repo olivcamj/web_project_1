@@ -11,15 +11,6 @@
 
 
 
-.logo_place_header {
-  max-width: 154px;
-  height: 31px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
-
 
 /* example of BEM selectors */
 
@@ -161,85 +152,6 @@
 
                                 /* Site footer, footer block */
 
-
-.footer__columns {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-  .footer__column {
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-.logo_place_footer {
-    width: 183px;
-    height: 35px;
-    background-size: contain;
-}
-
-.footer__author {
-  margin-bottom: 18px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-heading {
-  height: 35px;
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #fff;
-  line-height: 45px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.footer__column-links {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-link {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  padding-left: 0;
-  color: #f2f2f2;
-  text-decoration: none;
-}
-
-.footer__column-links:first-child{
-  margin-top: 20px;
-}
-
-.footer__column-links:last-child{
-  margin-bottom: 16px;
-}
-
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-}
+/***************TODO: You need to add the .footer__column-links:first-child 
+                      and .footer__column-links:last-child
+                      to the right section and import into FOOTER SECTION *************/

@@ -1,0 +1,10 @@
+.section-subtitle {
+    width: 60%; /*again it is not centered with this width */
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
