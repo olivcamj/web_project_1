@@ -1,3 +1,5 @@
+@import url(./_theme/section-subtitle_theme_dark\ .css);
+
 .section-subtitle {
     width: 60%; /*again it is not centered with this width */
     text-align: center;
