@@ -1,0 +1,9 @@
+.feynman__subtitle {
+    margin-top: 70px;
+    align-self: center; /* align the flex item itself !!!*/
+    text-align: center; /* align the text inside of the flex item*/
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    z-index: 2;
+  }
