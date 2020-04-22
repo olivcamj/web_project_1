@@ -1,15 +1,16 @@
+@import url(../page/page.css);
 @import url(./__brief/two-columns__brief.css);
 @import url(./__main-text/two-columns__main-text.css);
 @import url(./__paragraph/two-columns__paragraph.css);
 @import url(./__span-accent/two-columns__span-accent.css);
+@import url(./__paragraph/two-columns__paragraph:nth-of-type.css);
+
 
 .two-columns {
-    margin-top: 100px;
-    margin-left: auto;
-    margin-bottom: 0;
-    margin-right: auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto;
+  display: flex;
+  align-content: center;
   }
