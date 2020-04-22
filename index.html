@@ -6,21 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Author" content="Olivia Cameron">
   <title>Learning how to learn</title>
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
   <div class="page">
     <header class="header">
-      <!--Should I be using CSS instead for images?-->
       <img class="logo logo_place_header" src="images/logo.png" alt="Practicum Logo">
       <h1 class="header__title">Learning how to learn</h1>
       <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily
         life. <a class="header__link" href="">Learn More →</a></h2>
       <img class="header__main-illustration" src="images/on_the_edge.png" alt="Woman standing on the edge of a hill">
       <!--chose to use a div element for styling purposes-->
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation_square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -40,6 +38,90 @@
               that can be applied to the learning process to help make it more efficient
               and engaging. This is exactly what we do at Practicum.</p>
             </div>
+        </article>
+      </section>
+
+      <section class="techniques">
+        <h3 class="section-title">Learning Techniques </h3>
+        <h4 class="section-subtitle">Five Strategies from Barbara Oakley</h4>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" alt="The cover of a book by Brianna West" class="cards__image">
+            <h5 class="cards__title">Two Ways of Thinking </h5>
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth 
+              between focused and diffused thinking.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" alt="Statue of a boy holding an object" class="cards__image">
+            <h5 class="cards__title">Recall </h5>
+            <p class="cards__description">Improving your ability to remember key bits of information helps 
+              to connect different parts of the brain.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-interliving.png" alt="Alternating interweaving ceiling beams and a crowd of people" class="cards__image">
+            <h5 class="cards__title">Interleaving</h5>
+            <p class="cards__description">When you learn multiple skills at the same time, they 
+              reinforce each other.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-question.png" alt="A man standing in a room full of windows" class="cards__image">
+            <h5 class="cards__title">Questions </h5>
+            <p class="cards__description">When listening to your teacher, t
+              good question, something that you're really itching to know.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" alt="A hand holding up a stack of books" class="cards__image">
+            <h5 class="cards__title">Illusion of Competence</h5>
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat 
+              the process in different settings. Only then can you be truly certain you've understood something.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="video">
+        <h3 class="section-title">TED talks </h3>
+        <h4 class="section-subtitle">For lovers of procrastination</h4>
+        <div class="video__iframes">
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?start=14" frameborder="0"
+           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+           class="video__iframe">Hello! Your browser doesn't support iframe and can't show you this amazing thing.</iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+          class="video__iframe">Hello! Your browser doesn't support iframe and can't show you this amazing thing.</iframe>
+        </div>
+      </section>
+      <!--TODO: fix issue with extra padding in .two-columns -->
+      <section class="oakley">
+        <article class="two-columns">
+          <h3 class="two-columns__brief">Barbara Oakley’s story. </h3>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
+              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after 
+              school she enlisted in the army, who sent her to learn Russian. After several years of service, 
+              during which she rose to the rank of Captain, Barbara left the army and decided to study 
+              engineering. In was during this time that she developed her learning methodology as she was 
+              forced to reprogram her brain for a different kind of learning. It turns out that when something 
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people 
+              may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="khan">
+        <article class="khan__container">
+          <h3 class="khan__author">Salman Khan </h3>
+          <h4 class="khan__title">The One World Schoolhouse</h4>
+          <!-- Should I use another element here? like <q> or blockquote -->
+          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
+            students worldwide. The One World Schoolhouse is a must-read for all 
+            who are committed to improving education so students everywhere can 
+            gain the skills and knowledge to be successful in school, careers and life</p>
+          <p class="khan__quote-author">George Lucas </p>
+          <p class="khan__quote-author-subline">Filmmaker</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.png" alt="" class="khan__book-pic">
+            <a href="" class="khan__buy-link">Buy book &#x2192;</a>
+          </div>
         </article>
       </section>
 
@@ -92,7 +174,7 @@
         <img src="images/feynman.png" alt="Close-up shot of Richard Feynman wearing a suit and smiling "
           class="feynman__background-image">
       </section>
-
+<!--TODO: rotate that triangle!-->
       <section class="kaufman">
         <h3 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h3>
         <h4 class="section-subtitle section-subtitle_theme_dark ">by Josh Kaufman</h4>
@@ -141,7 +223,21 @@
         <!--<img class="kaufman__triangle" src="images/triangle.svg" alt="Blue triangle"> -->
         <div class="kaufman__triangle"></div>
       </section>
+
+      <section class="resources">
+        <h3 class="section-title">Useful resources</h3>
+        <h4 class="section-subtitle"> Further materials on learning techniques and hacks.</h4>
+        <ul class="resources__logo-zone">
+          <!--TODO add links here-->
+          <li><img src="images/resources-tedED.png" class="resources__logo"></li>
+          <li><img  src="images/resources-Medium.png" class="resources__logo"></li>
+          <li><img src="images/resources-dezeen.png" class="resources__logo"></li>
+          <li><img src="images/resources-goodreads.png" class="resources__logo"></li>
+        </ul>
+      </section>
     </main>
+
+    <!--TODO: this section is messed up take a look at the CSS (color)-->
     <footer class="footer">
       <nav class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
