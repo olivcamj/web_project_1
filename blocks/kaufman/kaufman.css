@@ -1,4 +1,8 @@
 @import url(./__triangle/kaufman__triangle.css);
+@import url(../section-title/_theme/section-title_theme_dark.css);
+@import url(../section-subtitle/section-subtitle.css);
+@import url(../table/_theme/table_theme_dark.css);
+
 .kaufman {
     position: relative;
     display: flex;
