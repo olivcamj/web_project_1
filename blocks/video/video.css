@@ -2,11 +2,10 @@
 @import url(../section-subtitle/section-subtitle.css);
 @import url(./__iframes/video__iframes.css);
 @import url(./__iframe/video__iframe.css);
-@import url(./__iframe/video__iframe:first-child.css); 
+/*@import url(./__iframe/video__iframe:first-child.css);*/
 
 .video {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-bottom: 150px solid #f2f2f2;
 }
