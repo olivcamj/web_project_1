@@ -4,7 +4,8 @@
 @import url(./__background-image/feynman__background-image.css);
 
 .feynman {
-    height: 790px;
+  /*allows height to change with content*/
+    min-height: 790px;
     padding-top: 100px;
     position: relative;
     display: flex;
