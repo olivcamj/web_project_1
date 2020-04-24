@@ -14,8 +14,11 @@
     <header class="header">
       <img class="logo logo_place_header" src="images/logo.png" alt="Practicum Logo">
       <h1 class="header__title">Learning how to learn</h1>
-      <h2 class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily
-        life. <a class="header__link" href="">Learn More →</a></h2>
+      <!--Semantically, it's better to use <p> tags for subtitles.
+        for search engines and people with poor vision who use screenreaders, 
+        they will see it as different sections in their navigation-->
+      <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily
+        life. <a class="header__link" href="">Learn More →</a></p>
       <img class="header__main-illustration" src="images/on_the_edge.png" alt="Woman standing on the edge of a hill">
       <!--chose to use a div element for styling purposes-->
       <div class="header__square-pic rotation"></div>
@@ -37,30 +40,31 @@
             <p class="two-columns__paragraph">There are certain techniques and exercises
               that can be applied to the learning process to help make it more efficient
               and engaging. This is exactly what we do at Practicum.</p>
-            </div>
+          </div>
         </article>
       </section>
 
       <section class="techniques">
         <h3 class="section-title">Learning Techniques </h3>
-        <h4 class="section-subtitle">Five Strategies from Barbara Oakley</h4>
+        <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
         <ul class="cards">
           <li class="cards__item">
             <img src="./images/cards-attention.png" alt="The cover of a book by Brianna West" class="cards__image">
             <h5 class="cards__title">Two Ways of Thinking </h5>
-            <p class="cards__description">Deep understanding comes from being able to toggle back and forth 
+            <p class="cards__description">Deep understanding comes from being able to toggle back and forth
               between focused and diffused thinking.</p>
           </li>
           <li class="cards__item">
             <img src="./images/cards-recall.png" alt="Statue of a boy holding an object" class="cards__image">
             <h5 class="cards__title">Recall </h5>
-            <p class="cards__description">Improving your ability to remember key bits of information helps 
+            <p class="cards__description">Improving your ability to remember key bits of information helps
               to connect different parts of the brain.</p>
           </li>
           <li class="cards__item">
-            <img src="./images/cards-interliving.png" alt="Alternating interweaving ceiling beams and a crowd of people" class="cards__image">
+            <img src="./images/cards-interliving.png" alt="Alternating interweaving ceiling beams and a crowd of people"
+              class="cards__image">
             <h5 class="cards__title">Interleaving</h5>
-            <p class="cards__description">When you learn multiple skills at the same time, they 
+            <p class="cards__description">When you learn multiple skills at the same time, they
               reinforce each other.</p>
           </li>
           <li class="cards__item">
@@ -72,35 +76,36 @@
           <li class="cards__item">
             <img src="./images/cards-competence.png" alt="A hand holding up a stack of books" class="cards__image">
             <h5 class="cards__title">Illusion of Competence</h5>
-            <p class="cards__description">Test yourself, write it down, tell other people, and repeat 
+            <p class="cards__description">Test yourself, write it down, tell other people, and repeat
               the process in different settings. Only then can you be truly certain you've understood something.</p>
           </li>
         </ul>
       </section>
       <section class="video">
         <h3 class="section-title">TED talks </h3>
-        <h4 class="section-subtitle">For lovers of procrastination</h4>
+        <p class="section-subtitle">For lovers of procrastination</p>
         <div class="video__iframes">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?start=14" 
-           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-           class="video__iframe"></iframe>
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" 
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
-          class="video__iframe"></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?start=14"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            class="video__iframe"></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            class="video__iframe"></iframe>
         </div>
       </section>
-    
+
       <section class="oakley">
         <article class="two-columns">
           <h3 class="two-columns__brief">Barbara Oakley’s story. </h3>
           <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
-              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after 
-              school she enlisted in the army, who sent her to learn Russian. After several years of service, 
-              during which she rose to the rank of Captain, Barbara left the army and decided to study 
-              engineering. In was during this time that she developed her learning methodology as she was 
-              forced to reprogram her brain for a different kind of learning. It turns out that when something 
-              doesn't come naturally to you, having to work hard to gain the knowledge that other people 
+            <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself
+              as more of a
+              humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after
+              school she enlisted in the army, who sent her to learn Russian. After several years of service,
+              during which she rose to the rank of Captain, Barbara left the army and decided to study
+              engineering. In was during this time that she developed her learning methodology as she was
+              forced to reprogram her brain for a different kind of learning. It turns out that when something
+              doesn't come naturally to you, having to work hard to gain the knowledge that other people
               may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
             </p>
           </div>
@@ -112,9 +117,9 @@
           <h3 class="khan__author">Salman Khan </h3>
           <h4 class="khan__title">The One World Schoolhouse</h4>
           <!-- Should I use another element here? like <q> or blockquote -->
-          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
-            students worldwide. The One World Schoolhouse is a must-read for all 
-            who are committed to improving education so students everywhere can 
+          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
+            students worldwide. The One World Schoolhouse is a must-read for all
+            who are committed to improving education so students everywhere can
             gain the skills and knowledge to be successful in school, careers and life</p>
           <p class="khan__quote-author">George Lucas </p>
           <p class="khan__quote-author-subline">Filmmaker</p>
@@ -127,7 +132,7 @@
 
       <section class="digits">
         <h3 class="section-title">Facts and figures</h3>
-        <h4 class="section-subtitle">On learning and the brain</h4>
+        <p class="section-subtitle">On learning and the brain</p>
         <ul class="table">
           <li class="table__cell">
             <h5 class="table__heading">86 billion</h5>
@@ -169,15 +174,15 @@
 
       <section class="feynman">
         <h3 class="feynman__title">The Feynman<br />Technique</h3>
-        <h4 class="feynman__subtitle">Learn without forgetting.</h4>
+        <p class="feynman__subtitle">Learn without forgetting.</p>
         <a class="feynman__link" href="#">More &#x2192;</a>
         <img src="images/feynman.png" alt="Close-up shot of Richard Feynman wearing a suit and smiling "
           class="feynman__background-image">
       </section>
-<!--TODO: rotate that triangle!-->
+      <!--TODO: rotate that triangle!-->
       <section class="kaufman">
         <h3 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h3>
-        <h4 class="section-subtitle section-subtitle_theme_dark ">by Josh Kaufman</h4>
+        <p class="section-subtitle section-subtitle_theme_dark ">by Josh Kaufman</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h5 class="table__heading table__heading_theme_dark">1</h5>
@@ -225,11 +230,11 @@
 
       <section class="resources">
         <h3 class="section-title">Useful resources</h3>
-        <h4 class="section-subtitle"> Further materials on learning techniques and hacks.</h4>
+        <p class="section-subtitle"> Further materials on learning techniques and hacks.</p>
         <ul class="resources__logo-zone">
           <!--TODO: add links here eventually?-->
           <li><img src="images/resources-tedED.png" alt="TED logo" class="resources__logo"></li>
-          <li><img  src="images/resources-Medium.png" alt="Medium logo" class="resources__logo"></li>
+          <li><img src="images/resources-Medium.png" alt="Medium logo" class="resources__logo"></li>
           <li><img src="images/resources-dezeen.png" alt="dezeen logo" class="resources__logo"></li>
           <li><img src="images/resources-goodreads.png" alt="Goodreads logo" class="resources__logo"></li>
         </ul>
