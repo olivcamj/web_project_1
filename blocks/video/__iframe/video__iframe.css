@@ -1,4 +1,6 @@
 .video__iframe {
+  width: 515;
+  height: 316;
   position: relative;
   margin-right: 0px;
   bottom: -60px;
