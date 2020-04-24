@@ -2,7 +2,6 @@
 @import url(./__logo/resources__logo.css);
 @import url(./__logo/resources__logo:hover.css);
 
-
 .resources {
   display: flex;
   align-items: center;

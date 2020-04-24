@@ -5,11 +5,11 @@
 
 .feynman {
   /*allows height to change with content*/
-    min-height: 790px;
-    padding-top: 100px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #f2f2f2;
-  }
+  min-height: 790px;
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+}
