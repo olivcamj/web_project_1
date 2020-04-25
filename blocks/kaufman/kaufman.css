@@ -11,4 +11,5 @@
   flex-direction: column;
   background-color: #1f1f1f;
   padding-bottom: 2px; /* correct a white line that runs between sections*/
+  z-index: 1;
 }
