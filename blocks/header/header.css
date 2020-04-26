@@ -13,5 +13,5 @@
   background-color: #f2f2f2;
   display: flex;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
