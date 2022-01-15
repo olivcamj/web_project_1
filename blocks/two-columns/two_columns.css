@@ -9,5 +9,6 @@
   margin-bottom: 0;
   margin-right: auto;
   display: flex;
+  justify-content: space-between;
   align-content: center;
 }
